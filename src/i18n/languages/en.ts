@@ -6,7 +6,14 @@ export const en: Translation = {
 	[Key.about]: "About",
 	[Key.archive]: "Archive",
 	[Key.search]: "Search",
+	[Key.searchNoResults]: "No results found.",
+	[Key.searchTypeSomething]: "Type something to search...",
+	[Key.searchLoading]: "Searching...",
+	[Key.searchSummary]: "Summary",
+	[Key.searchContent]: "Content",
+	[Key.searchViewMore]: "View more results ({count} more)",
 	[Key.other]: "Other",
+	[Key.all]: "All",
 
 	[Key.tags]: "Tags",
 	[Key.categories]: "Categories",
@@ -66,6 +73,12 @@ export const en: Translation = {
 	[Key.bangumiFilterGamePlayed]: "Played",
 	[Key.bangumiFilterGamePlaying]: "Playing",
 	[Key.bangumiFilterGameWish]: "Wish to Play",
+	[Key.bangumiFilterBookRead]: "Read",
+	[Key.bangumiFilterBookReading]: "Reading",
+	[Key.bangumiFilterBookWish]: "Wish to Read",
+	[Key.bangumiFilterMusicListened]: "Listened",
+	[Key.bangumiFilterMusicListening]: "Listening",
+	[Key.bangumiFilterMusicWish]: "Wish to Listen",
 	[Key.bangumiStatusWish]: "Wish",
 	[Key.bangumiStatusWatched]: "Watched",
 	[Key.bangumiStatusWatching]: "Watching",
@@ -74,6 +87,12 @@ export const en: Translation = {
 	[Key.bangumiStatusGameWish]: "Wish to Play",
 	[Key.bangumiStatusGamePlayed]: "Played",
 	[Key.bangumiStatusGamePlaying]: "Playing",
+	[Key.bangumiStatusBookWish]: "Wish to Read",
+	[Key.bangumiStatusBookRead]: "Read",
+	[Key.bangumiStatusBookReading]: "Reading",
+	[Key.bangumiStatusMusicWish]: "Wish to Listen",
+	[Key.bangumiStatusMusicListened]: "Listened",
+	[Key.bangumiStatusMusicListening]: "Listening",
 	[Key.bangumiStatusUnknown]: "Unknown",
 	[Key.bangumiNoData]: "No Data",
 	[Key.bangumiNoDataDescription]: "No items in this category",
@@ -180,8 +199,13 @@ export const en: Translation = {
 	[Key.sponsorAnonymous]: "Anonymous",
 	[Key.scanToSponsor]: "Scan to Sponsor",
 	[Key.sponsorGoTo]: "Go to Sponsor",
-	[Key.sponsorButton]: "Support",
-	[Key.sponsorButtonText]: "If this article helped you, welcome to support!",
+	[Key.sponsorButton]: "Support & Share",
+	[Key.sponsorButtonText]:
+		"If this article helped you, please share or support!",
+
+	[Key.shareOnSocial]: "Share Article",
+	[Key.shareOnSocialDescription]:
+		"If this article helped you, please share it with others!",
 
 	// Site Statistics
 	[Key.siteStats]: "Site Statistics",
@@ -193,6 +217,7 @@ export const en: Translation = {
 	[Key.siteStatsLastUpdate]: "Last Activity",
 	[Key.siteStatsDaysAgo]: "{days} days ago",
 	[Key.siteStatsDays]: "{days} days",
+	[Key.today]: "Today",
 
 	// Calendar Component
 	[Key.calendarSunday]: "Sun",
@@ -214,4 +239,11 @@ export const en: Translation = {
 	[Key.calendarOctober]: "Oct",
 	[Key.calendarNovember]: "Nov",
 	[Key.calendarDecember]: "Dec",
+
+	[Key.shareArticle]: "Share",
+	[Key.generatingPoster]: "Generating Poster...",
+	[Key.copied]: "Copied",
+	[Key.copyLink]: "Copy Link",
+	[Key.savePoster]: "Save Poster",
+	[Key.scanToRead]: "Scan to Read",
 };

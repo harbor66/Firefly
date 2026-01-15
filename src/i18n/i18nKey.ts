@@ -3,6 +3,12 @@ enum I18nKey {
 	about = "about",
 	archive = "archive",
 	search = "search",
+	searchNoResults = "searchNoResults",
+	searchTypeSomething = "searchTypeSomething",
+	searchLoading = "searchLoading",
+	searchSummary = "searchSummary",
+	searchContent = "searchContent",
+	searchViewMore = "searchViewMore",
 	other = "other",
 
 	tags = "tags",
@@ -39,6 +45,7 @@ enum I18nKey {
 	systemMode = "systemMode",
 
 	more = "more",
+	all = "all",
 
 	author = "author",
 	publishedAt = "publishedAt",
@@ -61,6 +68,12 @@ enum I18nKey {
 	bangumiFilterGamePlayed = "bangumiFilterGamePlayed",
 	bangumiFilterGamePlaying = "bangumiFilterGamePlaying",
 	bangumiFilterGameWish = "bangumiFilterGameWish",
+	bangumiFilterBookRead = "bangumiFilterBookRead",
+	bangumiFilterBookReading = "bangumiFilterBookReading",
+	bangumiFilterBookWish = "bangumiFilterBookWish",
+	bangumiFilterMusicListened = "bangumiFilterMusicListened",
+	bangumiFilterMusicListening = "bangumiFilterMusicListening",
+	bangumiFilterMusicWish = "bangumiFilterMusicWish",
 	bangumiStatusWish = "bangumiStatusWish",
 	bangumiStatusWatched = "bangumiStatusWatched",
 	bangumiStatusWatching = "bangumiStatusWatching",
@@ -69,6 +82,12 @@ enum I18nKey {
 	bangumiStatusGameWish = "bangumiStatusGameWish",
 	bangumiStatusGamePlayed = "bangumiStatusGamePlayed",
 	bangumiStatusGamePlaying = "bangumiStatusGamePlaying",
+	bangumiStatusBookWish = "bangumiStatusBookWish",
+	bangumiStatusBookRead = "bangumiStatusBookRead",
+	bangumiStatusBookReading = "bangumiStatusBookReading",
+	bangumiStatusMusicWish = "bangumiStatusMusicWish",
+	bangumiStatusMusicListened = "bangumiStatusMusicListened",
+	bangumiStatusMusicListening = "bangumiStatusMusicListening",
 	bangumiStatusUnknown = "bangumiStatusUnknown",
 	bangumiNoData = "bangumiNoData",
 	bangumiNoDataDescription = "bangumiNoDataDescription",
@@ -170,6 +189,9 @@ enum I18nKey {
 	sponsorButton = "sponsorButton",
 	sponsorButtonText = "sponsorButtonText",
 
+	shareOnSocial = "shareOnSocial",
+	shareOnSocialDescription = "shareOnSocialDescription",
+
 	// 站点统计
 	siteStats = "siteStats",
 	siteStatsPostCount = "siteStatsPostCount",
@@ -180,6 +202,7 @@ enum I18nKey {
 	siteStatsLastUpdate = "siteStatsLastUpdate",
 	siteStatsDaysAgo = "siteStatsDaysAgo",
 	siteStatsDays = "siteStatsDays",
+	today = "today",
 
 	// 日历组件
 	calendarSunday = "calendarSunday",
@@ -201,6 +224,13 @@ enum I18nKey {
 	calendarOctober = "calendarOctober",
 	calendarNovember = "calendarNovember",
 	calendarDecember = "calendarDecember",
+
+	shareArticle = "shareArticle",
+	generatingPoster = "generatingPoster",
+	copied = "copied",
+	copyLink = "copyLink",
+	savePoster = "savePoster",
+	scanToRead = "scanToRead",
 }
 
 export default I18nKey;

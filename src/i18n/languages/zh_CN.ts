@@ -6,7 +6,14 @@ export const zh_CN: Translation = {
 	[Key.about]: "关于我",
 	[Key.archive]: "归档",
 	[Key.search]: "搜索",
+	[Key.searchNoResults]: "找不到相关结果。",
+	[Key.searchTypeSomething]: "请输入搜索关键词。",
+	[Key.searchLoading]: "正在搜索...",
+	[Key.searchSummary]: "摘要",
+	[Key.searchContent]: "内容",
+	[Key.searchViewMore]: "查看更多结果 ({count} 个更多)",
 	[Key.other]: "其他",
+	[Key.all]: "全部",
 
 	[Key.tags]: "标签",
 	[Key.categories]: "分类",
@@ -64,6 +71,12 @@ export const zh_CN: Translation = {
 	[Key.bangumiFilterGamePlayed]: "玩过",
 	[Key.bangumiFilterGamePlaying]: "在玩",
 	[Key.bangumiFilterGameWish]: "想玩",
+	[Key.bangumiFilterBookRead]: "读过",
+	[Key.bangumiFilterBookReading]: "在读",
+	[Key.bangumiFilterBookWish]: "想读",
+	[Key.bangumiFilterMusicListened]: "听过",
+	[Key.bangumiFilterMusicListening]: "在听",
+	[Key.bangumiFilterMusicWish]: "想听",
 	[Key.bangumiStatusWish]: "想看",
 	[Key.bangumiStatusWatched]: "看过",
 	[Key.bangumiStatusWatching]: "在看",
@@ -72,6 +85,12 @@ export const zh_CN: Translation = {
 	[Key.bangumiStatusGameWish]: "想玩",
 	[Key.bangumiStatusGamePlayed]: "玩过",
 	[Key.bangumiStatusGamePlaying]: "在玩",
+	[Key.bangumiStatusBookWish]: "想读",
+	[Key.bangumiStatusBookRead]: "读过",
+	[Key.bangumiStatusBookReading]: "在读",
+	[Key.bangumiStatusMusicWish]: "想听",
+	[Key.bangumiStatusMusicListened]: "听过",
+	[Key.bangumiStatusMusicListening]: "在听",
 	[Key.bangumiStatusUnknown]: "未知",
 	[Key.bangumiNoData]: "暂无数据",
 	[Key.bangumiNoDataDescription]: "该分类下还没有任何条目",
@@ -172,8 +191,12 @@ export const zh_CN: Translation = {
 	[Key.sponsorAnonymous]: "匿名",
 	[Key.scanToSponsor]: "扫码赞助",
 	[Key.sponsorGoTo]: "前往赞助",
-	[Key.sponsorButton]: "赞助支持",
-	[Key.sponsorButtonText]: "如果这篇文章对你有帮助，欢迎赞助支持！",
+	[Key.sponsorButton]: "支持与分享",
+	[Key.sponsorButtonText]:
+		"如果这篇文章对你有帮助，欢迎分享给更多人或赞助支持！",
+
+	[Key.shareOnSocial]: "文章分享",
+	[Key.shareOnSocialDescription]: "如果这篇文章对你有帮助，欢迎分享给更多人！",
 
 	// 站点统计
 	[Key.siteStats]: "站点统计",
@@ -185,6 +208,7 @@ export const zh_CN: Translation = {
 	[Key.siteStatsLastUpdate]: "最后活动",
 	[Key.siteStatsDaysAgo]: "{days} 天前",
 	[Key.siteStatsDays]: "{days} 天",
+	[Key.today]: "今天",
 
 	// 日历组件
 	[Key.calendarSunday]: "日",
@@ -206,4 +230,11 @@ export const zh_CN: Translation = {
 	[Key.calendarOctober]: "10月",
 	[Key.calendarNovember]: "11月",
 	[Key.calendarDecember]: "12月",
+
+	[Key.shareArticle]: "分享",
+	[Key.generatingPoster]: "海报生成中...",
+	[Key.copied]: "已复制",
+	[Key.copyLink]: "复制链接",
+	[Key.savePoster]: "保存海报",
+	[Key.scanToRead]: "扫码阅读文章",
 };
