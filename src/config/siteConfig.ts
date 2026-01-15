@@ -38,18 +38,25 @@ export const siteConfig: SiteConfig = {
 		},
 	],
 
-	// 导航栏Logo
-	// navbarLogo 支持三种类型：Astro图标库，本地图片，网络图片
-	// { type: "icon", value: "material-symbols:home-pin-outline" }
-	// { type: "image", value: "/assets/images/logo.webp", alt: "Firefly Logo" }
-	// { type: "image", value: "https://example.com/logo.png", alt: "Firefly Logo" }
-	navbarLogo: {
-		type: "image",
-		value: "/assets/images/LiuYingPure3.svg",
-		alt: "🍀",
+	// 导航栏配置
+	navbar: {
+		// 导航栏Logo
+		// 支持三种类型：Astro图标库，本地图片，网络图片
+		// { type: "icon", value: "material-symbols:home-pin-outline" }
+		// { type: "image", value: "/assets/images/logo.webp", alt: "Firefly Logo" }
+		// { type: "image", value: "https://example.com/logo.png", alt: "Firefly Logo" }
+		logo: {
+			type: "image",
+			value: "/assets/images/LiuYingPure3.svg",
+			alt: "🍀",
+		},
+		// 导航栏标题
+		title: "Firefly",
+		// 全宽导航栏，导航栏是否占满屏幕宽度，true：占满，false：不占满
+		widthFull: false,
+		// 导航栏图标和标题是否跟随主题色
+		followTheme: false,
 	},
-	navbarTitle: "Firefly", // 导航栏标题，可以设置为与 title 不同的值，如果不设置则使用 title
-	navbarWidthFull: false, // 全宽导航栏，导航栏是否占满屏幕宽度，true：占满，false：不占满
 
 	// 站点开始日期，用于统计运行天数
 	siteStartDate: "2025-12-15", // 请修改为你的站点实际开始日期，格式：YYYY-MM-DD
@@ -57,6 +64,10 @@ export const siteConfig: SiteConfig = {
 	// bangumi配置
 	bangumi: {
 		userId: "1163581", // 在此处设置你的Bangumi用户ID
+	},
+
+	rehypeCallouts: {
+		theme: "github",
 	},
 
 	// 文章页底部的"上次编辑时间"卡片开关
@@ -75,11 +86,19 @@ export const siteConfig: SiteConfig = {
 
 	// 文章列表布局配置
 	postListLayout: {
-		// 默认布局模式："list" 列表模式（单列布局），"grid" 网格模式（双列布局）
-		// 如果sidebarConfig.ts中侧边栏配置启用了"both"双侧边栏，则无法使用文章列表"grid"网格（双列）布局
+		// 默认布局模式："list" 列表模式（单列布局），"grid" 网格模式（多列布局）
 		defaultMode: "list",
 		// 是否允许用户切换布局
 		allowSwitch: true,
+		// 网格布局配置，仅在 defaultMode 为 "grid" 或允许切换布局时生效
+		grid: {
+			// 是否开启瀑布流布局，同时有封面图和无封面图的混合文章推荐开启
+			masonry: false,
+			// 网格模式列数：2 或 3
+			// 2列是默认模式，在任何侧边栏配置下均可生效
+			// 3列模式仅在单侧边栏（或无侧边栏）时生效
+			columns: 3,
+		},
 	},
 
 	// 分页配置
